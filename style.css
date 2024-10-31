@@ -1,0 +1,88 @@
+body{
+	background-color:#EDDFE0 ;
+	color:#B7B7B7 ;
+	font-family: "Merriweather", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+h1, h2 {
+	color:#705C53;
+	font-family: "Roboto", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+}
+h2 {
+  	font-weight: 700;
+}
+a {
+	color: #EDDFE0;
+	text-decoration: none;
+	font-family: "Merriweather", serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	transition: color 0.5s ease;
+}
+a:hover {
+	color : #D91656
+}
+
+
+.img-circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+.card-white1, .card-white2 {
+	background: #F5F5F7;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 1000px;
+	margin: 50px auto;
+	text-align: center;
+}
+.card-white2{
+	width: 500px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 75px;
+}
+@media (max-width: 960px) {
+  .card-white1, .card-white2  {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-white1, .card-white2  {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-white1, .card-white2  {
+    width: 300px;
+  }
+}
+.btn {
+	background-color:#EDDFE0 ;
+	color: white;
+	padding: 15px 35px;
+	border-radius: 15px;
+
+}
+.btn:hover {
+	background-color: #D91656;
+	color: white;	
+}
+#introduction p {
+	margin-bottom: 40px;
+
+}
